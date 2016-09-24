@@ -1,0 +1,90 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.cf:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.bg-cover {
+	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+		url(assets/images/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 220px;
+	opacity: 0.85;
+}
+
+div#spice-bar {
+	color: #fff;
+	height: 100%;
+	overflow: hidden;
+	margin-left: 60px;
+	padding: 3em 0;
+}
+
+#spice-bar h1 {
+	font-size: 36px;
+}
+
+#group1,
+#group2 {
+	float: left;
+	overflow: auto;
+	display: block;
+	margin-top: 75px;
+
+}
+
+#group1 {
+	width: 54%;
+	padding-left: 100px;
+	margin-right: 2%;
+	border-right: 3px solid #eee;
+	padding-right: 2%
+}
+
+#group2 {
+	width: 36%;
+}
+
+.columns {
+	float: left;
+	width: 33%;
+	background-color: #DDD;
+	padding: 10px 20px;
+	margin-top: 50px;
+}
+
+#block1 {
+	margin-bottom: 60px;
+}
+
+@font-face {
+	font-family: crimsontext;
+	src: url(assets/fonts/CrimsonText-Italic.ttf);
+	font-style: italic;	
+}
+
+blockquote {
+	font-family: crimsontext, serif;
+	font-size: 28px;
+	font-style: italic;
+	color: #959595;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

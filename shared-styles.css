@@ -1,0 +1,88 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.cf:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	overflow: hidden;
+	background-color: #0A645A;
+	line-height: 70px;
+	height: 70px;
+	padding: 0 16px;
+}
+
+#img1 {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+#bar {
+	float: right;
+	margin-right: 20px;
+}
+
+.link {
+	float: left;
+	list-style-type: none;
+}
+
+#bar ul, 
+#bottom-bar ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+footer {
+	background-color: #eee;
+	margin-top: 2%;
+	overflow: hidden;
+	line-height: 50px;
+}
+
+footer small {
+	margin: 0 20px; 
+}
+footer #bottom-bar {
+	display: inline-block;
+}
+
+footer li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+@font-face {
+	font-family: yesevaone;
+	src: url(yesevaone/YesevaOne-Regular.ttf);
+}
+
+footer a {
+	color:	#b8b8b8;
+	font-family: yesevaone, sans-serif;
+	font-size: 14px;
+}
+
+
+#bar a {
+	display: inline-block;
+	padding: 0 10px;
+	color: #fff;
+	font-family: yesevaone, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+
+
+
+
+

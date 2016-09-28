@@ -55,7 +55,33 @@ h3 {
 	float: right;
 }
 
+@media (max-width: 1000px) {
+	.spice-container a {
+		float: none;
+		display: block;
+	}
 
+	.spice-container div {
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 700px) {
+	.spice-container {
+		width: 46%;
+		float: right;
+	}
+
+	.spice-container:nth-child(5) {
+		float: left;
+	}
+
+	main {
+		margin: 0 10%;
+	}
+
+}
 
 
 

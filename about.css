@@ -1,6 +1,6 @@
 article {
 	margin: 0 100px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 h1 {
@@ -15,8 +15,36 @@ h1 {
 	margin-left: 2%;
 	margin-top: 5%;
 	padding-left: 2%;
+	/*overflow: auto;*/
 }
 
 div p:nth-child(2) {
 	font-size: 20px;
+}
+
+@media (max-width: 700px) {
+	main {
+		margin-left: 5%;
+	}
+
+	article,
+	h1 {
+		margin: 10%;
+	}
+
+	#img2 {
+		margin: 0;
+		border: none;
+		margin: auto;
+		margin-left: 10%;
+		width: 100%;
+		max-width: 380px;
+		max-height: 274px;
+
+	}
+
+	article {
+		float: none;
+		display: block;
+	}
 }

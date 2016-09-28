@@ -40,7 +40,7 @@ div#spice-bar {
 
 #group1 {
 	width: 54%;
-	padding-left: 100px;
+	padding-left: 2%;
 	margin-right: 2%;
 	border-right: 3px solid #eee;
 	padding-right: 2%
@@ -75,6 +75,59 @@ blockquote {
 	color: #959595;
 }
 
+
+
+@media (max-width: 1000px) {
+
+	#column1,
+	#column2,
+	#column3{
+		width: 100%;
+	}
+
+	#column2,
+	#column3 {
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 700px) {
+	main {
+		margin: 0 50px;
+	}
+
+	#column1,
+	#column2, 
+	#column3 {
+		width: 100%;
+	}
+
+	#group1 {
+		border: none;
+		width: 100%;
+		padding: 0;
+	}
+
+	#group2 {
+		clear: left;
+		width: 100%;
+		border-top: 3px solid #eee;
+	}
+
+	#block1 {
+		margin-bottom: 20px;
+	}
+
+	.columns {
+		margin-top: 30px;
+	}
+
+	
+
+
+
+
+}
 
 
 
